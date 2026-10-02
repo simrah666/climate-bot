@@ -138,7 +138,7 @@ def answer_question(query: str, location: str = "Chitral, Khyber Pakhtunkhwa"):
         )
         answer = completion.choices[0].message.content
     except Exception as error:
-        print(f"LLM error: {error}")
+        st.error(f"LLM error: {error}")
         answer = (
             "Sorry, I could not generate an answer right now. In an emergency, contact "
             "Rescue 1122 and follow notices from the district administration, PDMA, and PMD."
