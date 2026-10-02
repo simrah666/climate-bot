@@ -1,6 +1,6 @@
 # Climate Information Bot
 
-An English and Urdu chatbot that gives practical disaster-preparedness guidance for Chitral and Khyber Pakhtunkhwa, Pakistan. It answers from a set of safety guides and shows which guide each answer came from.
+An English and Urdu chatbot that gives practical disaster-preparedness guidance for Chitral, Khyber Pakhtunkhwa, Pakistan. It answers from a set of safety guides and shows which guide each answer came from.
 
 **Live app:** [https://climate-bot-q7grmfcxpqnrrbn5eyr9gk.streamlit.app/]
 
@@ -91,11 +91,11 @@ The first start downloads the embedding model, so it takes a minute.
 
 ## Deploy
 
-1. Push `app.py`, `rag.py`, `requirements.txt` and the guides to a GitHub repository.
-2. On [share.streamlit.io](https://share.streamlit.io), create an app from the repository with `app.py` as the main file.
-3. Under **Advanced settings > Secrets**, add `GROQ_API_KEY = "your_key_here"`.
+1. Pushed `app.py`, `rag.py`, `requirements.txt` and the guides to a GitHub repository.
+2. On [share.streamlit.io](https://share.streamlit.io), created an app from the repository with `app.py` as the main file.
+3. Under **Advanced settings > Secrets**, added `GROQ_API_KEY = "your_key_here"`.
 
-Never commit your key. `.streamlit/secrets.toml` and `.env` should stay out of GitHub.
+Never committed key. `.streamlit/secrets.toml` and `.env` they should stay out of GitHub.
 
 ## Limitations
 
@@ -123,4 +123,4 @@ Never commit your key. `.streamlit/secrets.toml` and `.env` should stay out of G
 
 ## Team
 
-Simrah Tariq, Kainat Saif, Syeda Ummi Atika, Adeela Haqqi
+Simrah Tariq (03458916585), Kainat Saif, Syeda Ummi Atika, Adeela Haqqi
