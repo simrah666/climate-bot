@@ -117,9 +117,10 @@ Never committed key. `.streamlit/secrets.toml` and `.env` they should stay out o
 
 ## Screenshots
 
-![home page](Screenshots/home.png)
-![english answer with sources](Screenshots/english-answer.png)
-![urdu answer](Screenshots/urdu-answer.png)
+![Home page](screenshots/home.png)
+![English answer 1](screenshots/english-answer-1.png)
+![English answer 2](screenshots/english-answer-2.png)
+![Urdu answer](screenshots/urdu-answer.png)
 
 ## Team
 
