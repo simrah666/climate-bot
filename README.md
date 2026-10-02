@@ -117,10 +117,12 @@ Never committed key. `.streamlit/secrets.toml` and `.env` they should stay out o
 
 ## Screenshots
 
-![Home page](screenshots/home.png)
-![English answer 1](screenshots/english-answer-1.png)
-![English answer 2](screenshots/english-answer-2.png)
-![Urdu answer](screenshots/urdu-answer.png)
+<img width="1351" height="595" alt="home" src="https://github.com/user-attachments/assets/f097ca6b-69da-4c74-a5dc-3a5711099438" />
+<img width="1355" height="586" alt="english-answer-1" src="https://github.com/user-attachments/assets/cab7c128-43d6-4fb0-8ad2-3a68740645ca" />
+<img width="1340" height="567" alt="english-answer-2" src="https://github.com/user-attachments/assets/befaa5d7-8a62-4e46-93ab-434440f8ada7" />
+<img width="1347" height="586" alt="urdu-answer" src="https://github.com/user-attachments/assets/70324e04-5316-432f-a2f1-e300f06d91e9" />
+
+
 
 ## Team
 
