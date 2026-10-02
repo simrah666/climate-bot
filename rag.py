@@ -137,10 +137,12 @@ def answer_question(query: str, location: str = "Chitral, Khyber Pakhtunkhwa"):
             max_tokens=1200,
         )
         answer = completion.choices[0].message.content
-        
-         except Exception as error:
-           print(f"LLM error: {error}")
-           answer = f"DEBUG ERROR: {error}"
+    except Exception as error:
+        print(f"LLM error: {error}")
+        answer = (
+            "Sorry, I could not generate an answer right now. In an emergency, contact "
+            "Rescue 1122 and follow notices from the district administration, PDMA, and PMD."
+        )
 
     sources = list(dict.fromkeys(friendly_source_name(src) for _, src in context_items))
     return {"answer": answer, "sources": sources}
