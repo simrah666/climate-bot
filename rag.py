@@ -14,7 +14,7 @@ from fastembed import TextEmbedding
 from groq import Groq
 
 BASE_DIR = Path(__file__).resolve().parent
-DATA_DIR = BASE_DIR / "data"  # put your .md guides here
+DATA_DIR = BASE_DIR / "data" if (BASE_DIR / "data").is_dir() else BASE_DIR
 
 EMBEDDING_MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 GROQ_MODEL = "openai/gpt-oss-120b"  # use the model name that works for you
